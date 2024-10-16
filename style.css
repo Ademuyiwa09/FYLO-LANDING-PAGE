@@ -1,0 +1,667 @@
+/*THIS IS THE GENERAL STYLE*/
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: hsl(243, 87%, 12%);
+}
+p {
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+button {
+    cursor: pointer;
+}
+
+
+/*THIS IS THE HEADER'S SECTION STYLE*/
+header {
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    align-items: center;
+}
+
+.header-img {
+   flex: 3;
+}
+
+.fylo-logo {
+    width: 30%;
+}
+
+.header-nav {
+flex: 1;
+}
+
+header nav a {
+    flex: 1;
+    flex-wrap: nowrap;
+    align-self: center;
+    font-weight: 400;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    margin: 0;
+}
+
+.a-link {
+  margin-left: 10px;
+}
+.sign-in {
+white-space: nowrap;
+margin-left: 10px; 
+}
+
+/*THIS IS THE MAIN SECTION-1 STYLE*/
+.main-section-1 {
+    align-content: space-between;
+    margin: 5% 4% 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Open Sans';
+}
+
+.section-1-text {
+    align-content: center;
+}
+
+main section h1 {
+ color: hsl(243, 87%, 12%);
+ line-height: 1.5;
+ margin-bottom: 10px;
+}
+
+.section-1-p {
+    width: 80%;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main section input {
+    height: 35px;
+    width: 50%;
+    font-size: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(0, 0%, 75%);
+    font-family: 'Open Sans'
+}
+main section input::placeholder {
+    padding-left: 12px;
+    color: hsl(0, 0%, 75%);
+    font-family: 'Open Sans'
+}
+
+
+.section-1-button {
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    padding: 9px 35px;
+    font-family: 'Open Sans';
+    border: none;
+    border-radius: 3px;
+}
+
+main section img { 
+    margin-left: 30px;
+    width: 95%;
+}
+
+
+/*THIS IS THE MAIN SECTION-2 STYLE*/
+.main-section-2 {
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-top: 10%;
+    font-family: 'Open Sans';
+}
+
+.section-2-text {
+    margin-left: 5%;
+    flex: 1;
+    margin-top: 2%;
+}
+
+main section h1 {
+    margin-bottom: 10px;
+}
+
+.section-2-p1, .section-2-p2 {
+    width: 86%;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.section-2-link {
+    vertical-align: top;
+    margin-bottom: 30px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    display: inline-block;
+}
+
+.section-2-link-text {
+    font-size: 13px;
+    color: hsl(170, 45%, 43%);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.icon-arrow {
+    width: 14px;
+    margin: 0;
+}
+
+.section-2-image {
+    vertical-align: middle;
+    width: 90%;
+    margin-top: 1%;
+    flex: 1;
+}
+
+/*SECTION 2 FOUNDER'S BOX*/
+.testimonial-box {
+    padding: 20px;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    background-color: hsl(240, 75%, 98%);
+    box-shadow: 0px 0px 10px hsl(0, 0%, 75%);
+    display: inline-block;
+}
+
+.icon-quotes {
+    width: 15px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.testimonial-span-1 {
+width: 310px;
+margin-bottom: 16px;
+line-height: 1.4;
+letter-spacing: 0.4px;
+font-size: 14px;
+}
+
+.testimonial-span-text {
+    font-size: 13px;
+}
+
+.founder-section {
+    display: flex;
+}
+.image-founder {
+width: 50px;
+}
+.image-founder-text {
+flex: 1;
+}
+
+.founder-image {
+    width: 40px;
+    margin: 0;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+.testimonial-p {
+    font-size: 10px;
+    margin-top: 1%;
+}
+
+
+/*THIS IS THE MAIN SECTION-3 STYLE*/
+.main-section-3 {
+    background-color: hsl(238, 22%, 44%);
+    padding: 80px 40px;
+    display: flex;
+    font-family: 'Open Sans';
+}
+
+.section-3-text {
+    flex: 1;
+}
+
+.section-3-h2 {
+    color: hsl(240, 75%, 98%);
+}
+
+.section-3-p { 
+    color: hsl(240, 75%, 98%);
+    width: 98%;
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.section-3-button {
+    flex: 1;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#form {
+    height: 38px;
+    width: 80%;
+    font-size: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+#form::placeholder {
+    font-size: 10px;
+    margin-right: 90px;
+    font-family: 'Open Sans'
+}
+
+.section-3-but {
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans'
+}
+
+
+/*THIS IS THE FOOTER'S STYLE*/
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 70px 40px;
+    color: hsl(240, 75%, 98%);
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grid {
+    align-items: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.phone-gmail {
+    display: block;
+}
+
+.phone {
+    margin-bottom: 10px;
+}
+
+.phone-no {
+    margin-left: 5px;
+}
+
+.gmail-text {
+    margin-left: 5px;
+}
+
+.nav-one {
+    margin-left: 40px;
+}
+
+.nav-two {
+    margin-left: 40px;
+}
+
+.nav-three {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-three-facebook {
+   margin-right: 2%;
+}
+.nav-three-twiter {
+   margin-right: 2%;
+}
+.attribution {
+    margin-top: 10px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+@media only screen and (max-width: 376px) {
+
+header {
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    align-items: center;
+}
+.header-nav {
+    font-size: 8px;
+    flex: 4;
+}
+.header-img {
+    flex: 1;
+ }
+ 
+ .fylo-logo {
+    width: 70%;
+}
+
+.main-section-1 {
+    align-content: space-between;
+    margin: 5% 2% 3%;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Open Sans';
+}
+
+main section img { 
+    margin-left: 5px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.section-1-text {
+    align-content: center;
+}
+
+main section h1 {
+ color: hsl(243, 87%, 12%);
+ line-height: 1.5;
+ font-size: 12px;
+ width: 180px;
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+.section-1-p {
+    width: 170px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+}
+
+main section input {
+    display: block;
+    height: 28px;
+    width: 170px;
+    font-size: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(0, 0%, 75%);
+    font-family: 'Open Sans';
+}
+main section input::placeholder {
+    padding-left: 12px;
+    color: hsl(0, 0%, 75%);
+    font-family: 'Open Sans';
+}
+
+.section-1-button {
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    height: 28px;
+    width: 170px;
+    font-size: 8px;
+    font-family: 'Open Sans';
+    border: none;
+    border-radius: 3px;
+}
+
+
+/*THIS IS THE RESPONSIVE MAIN SECTION-2 STYLE*/
+.main-section-2 {
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 8%;
+    margin-top: 10%;
+    font-family: 'Open Sans';
+}
+
+.section-2-text {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex: 1;
+    margin-top: 4%;
+}
+
+main section h1 {
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-2-p1, .section-2-p2 {
+    width: 165px;
+    font-size: 7px;
+    margin-bottom: 15px;
+}
+
+.section-2-link {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-align: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    display: inline-block;
+}
+
+.section-2-link-text {
+    font-size: 8px;
+    color: hsl(170, 45%, 43%);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.icon-arrow {
+    width: 10px;
+    margin: 0;
+}
+
+.section-2-image {
+    margin-top: 10px;
+    margin-left: 5px;
+    width:65%;
+    margin-bottom: 10px;
+}
+
+/*SECTION 2 FOUNDER'S BOX*/
+.testimonial-box {
+    padding: 10px 0px 10px 10px;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    background-color: hsl(240, 75%, 98%);
+    box-shadow: 0px 0px 10px hsl(0, 0%, 75%);
+    display: inline-block;
+}
+
+.icon-quotes {
+    width: 8px;
+    margin-bottom: 3px;
+}
+
+.testimonial-span-1 {
+width: 164px;
+margin-bottom: 16px;
+line-height: 1.4;
+letter-spacing: 0.4px;
+font-size: 6px;
+}
+
+.image-founder {
+    width: 25px;
+}
+
+.founder-image {
+    width: 20px;
+    border-radius: 10px;
+}
+  
+.founder-name {
+font-size: 7px;
+}
+
+.testimonial-p {
+    font-size: 5px;
+    margin-top: 1%;
+}
+
+.image-founder-text {
+    display: inline-block;
+}
+  
+/*THIS IS THE MAIN SECTION-3 STYLE*/
+.main-section-3 {
+    background-color: hsl(238, 22%, 44%);
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+}
+
+.section-3-h2 {
+    color: hsl(240, 75%, 98%);
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.section-3-p { 
+    color: hsl(240, 75%, 98%);
+    width: 140px;
+    line-height: 1.4;
+    font-size: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.section-3-button {
+    margin: 0;
+}
+
+#form {
+    height: 28px;
+    width: 170px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+#form::placeholder {
+    font-size: 7px;
+    margin-right: 90px;
+    font-family: 'Open Sans'
+}
+
+.section-3-but {
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    font-size: 7px;
+    height: 28px;
+    width: 170px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans'
+}
+
+/*THIS IS THE FOOTER'S STYLE*/
+footer {
+    padding: 30px 20px;
+    color: hsl(240, 75%, 98%);
+    font-family: 'Open Sans';
+    font-size: 8px;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+    width: 90px;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-logo, .gmail-logo {
+    width: 10px;
+}
+
+.nav-one, .nav-two {
+  margin: 20px 0 0 0;
+}
+
+.nav-three {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-three-facebook {
+   margin-right: 2%;
+}
+.nav-three-twiter {
+   margin-right: 2%;
+}
+
+.nav-three-facebook, .nav-three-twitter, .nav-three-instagram {
+    width: 18px;
+}
+
+
+.attribution {
+    width: 120px;
+    font-size: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+     
+}
