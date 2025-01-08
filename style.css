@@ -15,8 +15,6 @@ p {
 button {
     cursor: pointer;
 }
-
-
 /*THIS IS THE HEADER'S SECTION STYLE*/
 header {
     margin-top: 4%;
@@ -349,11 +347,8 @@ footer a {
     color: white;
     text-align: center;
 }
-
-
-
 /*RESPONSIVE DESIGN*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
 header {
     width: 90%;
@@ -521,11 +516,11 @@ nav a {
 }
 
 .testimonial-span-1 {
-width: 164px;
-margin-bottom: 16px;
-line-height: 1.4;
-letter-spacing: 0.4px;
-font-size: 6px;
+   width: 164px;
+   margin-bottom: 16px;
+   line-height: 1.4;
+   letter-spacing: 0.4px;
+   font-size: 6px;
 }
 
 .image-founder {
